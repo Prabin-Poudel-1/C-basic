@@ -22,3 +22,4 @@ Replace `hello_world` with the filename of the exercise you want to run.
 | [hello_world.cpp](01-basic-input-output/hello_world.cpp) | Print Hello World | `No input` |
 | [personal_details.cpp](01-basic-input-output/personal_details.cpp) | Read name, age, and address | `Prabin Poudel / 20 / Kathmandu Nepal` |
 | [display_two_numbers.cpp](01-basic-input-output/display_two_numbers.cpp) | Input and display two numbers | `12.5 -3` |
+| [simple_calculator.cpp](01-basic-input-output/simple_calculator.cpp) | Calculate with +, -, *, /, and % | `8 + 2` |
