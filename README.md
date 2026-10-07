@@ -20,3 +20,4 @@ Replace `hello_world` with the filename of the exercise you want to run.
 | Program | Practice | Sample input |
 | --- | --- | --- |
 | [hello_world.cpp](01-basic-input-output/hello_world.cpp) | Print Hello World | `No input` |
+| [personal_details.cpp](01-basic-input-output/personal_details.cpp) | Read name, age, and address | `Prabin Poudel / 20 / Kathmandu Nepal` |
