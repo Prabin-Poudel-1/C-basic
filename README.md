@@ -50,3 +50,26 @@ Result (after the prompt):
 Area: 15.00
 Perimeter: 16.00
 ```
+
+### Circle area and circumference
+
+[circle_calculator.cpp](02-basic-mathematical-programs/circle_calculator.cpp) accepts non-negative radius, including zero, and prints results to two decimal places.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 02-basic-mathematical-programs/circle_calculator.cpp -o build/circle_calculator
+./build/circle_calculator
+```
+
+Sample input:
+
+```text
+5
+```
+
+Result (after the prompt):
+
+```text
+Area: 78.54
+Circumference: 31.42
+```
