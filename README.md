@@ -143,3 +143,26 @@ Hours: 1
 Minutes: 1
 Seconds: 1
 ```
+
+### Average of numbers
+
+[average_of_numbers.cpp](02-basic-mathematical-programs/average_of_numbers.cpp) reads a positive whole-number count on its own line, then that many finite numbers separated by whitespace. Negative values and decimals are allowed. It computes sum / count and displays the average to two decimal places. An overflowing running sum is reported instead of printing an invalid result.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 02-basic-mathematical-programs/average_of_numbers.cpp -o build/average_of_numbers
+./build/average_of_numbers
+```
+
+Sample input:
+
+```text
+3
+10 20 30
+```
+
+Result (after the prompts):
+
+```text
+Average: 20.00
+```
