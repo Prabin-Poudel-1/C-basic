@@ -119,3 +119,27 @@ Result (after the prompt):
 Compound interest: 102.50
 Total amount: 1102.50
 ```
+
+### Seconds to hours, minutes, and seconds
+
+[seconds_converter.cpp](02-basic-mathematical-programs/seconds_converter.cpp) Reads one non-negative whole number on a line (up to 9223372036854775807). Uses division and remainder to split it into total hours, remaining minutes, and remaining seconds. Hours may exceed 23; minutes and seconds stay between 0 and 59.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 02-basic-mathematical-programs/seconds_converter.cpp -o build/seconds_converter
+./build/seconds_converter
+```
+
+Sample input:
+
+```text
+3661
+```
+
+Result (after the prompt):
+
+```text
+Hours: 1
+Minutes: 1
+Seconds: 1
+```
