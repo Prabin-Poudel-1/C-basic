@@ -73,3 +73,26 @@ Result (after the prompt):
 Area: 78.54
 Circumference: 31.42
 ```
+
+### Simple interest
+
+[simple_interest.cpp](02-basic-mathematical-programs/simple_interest.cpp) reads principal, annual percentage rate, and time in years (fractional years are allowed). Inputs must be finite and non-negative. Simple interest = principal × rate × years / 100; total amount = principal + interest. Results use two decimal places.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 02-basic-mathematical-programs/simple_interest.cpp -o build/simple_interest
+./build/simple_interest
+```
+
+Sample input:
+
+```text
+1000 5 2
+```
+
+Result (after the prompt):
+
+```text
+Simple interest: 100.00
+Total amount: 1100.00
+```
