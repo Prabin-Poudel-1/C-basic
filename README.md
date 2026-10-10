@@ -191,3 +191,27 @@ Result (after the prompt):
 Percentage: 85.00%
 Grade: B
 ```
+
+## Decision-making
+
+### Positive, negative, or zero
+
+[number_sign.cpp](03-decision-making/number_sign.cpp) reads one finite floating-point number and uses `if/else` to classify it. Integers, decimals, and scientific notation are accepted. Both positive and negative zero are classified as zero. Values are interpreted using double-precision floating point.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/number_sign.cpp -o build/number_sign
+./build/number_sign
+```
+
+Sample input:
+
+```text
+-12.5
+```
+
+Result (after the prompt):
+
+```text
+Negative
+```
