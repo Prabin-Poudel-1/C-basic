@@ -215,3 +215,25 @@ Result (after the prompt):
 ```text
 Negative
 ```
+
+### Even or odd
+
+[even_odd_checker.cpp](03-decision-making/even_odd_checker.cpp) reads one signed integer on a line and checks its remainder when divided by two. Zero and negative even numbers are even. Accepted range: −9223372036854775808 to 9223372036854775807. Decimals, extra tokens, and out-of-range inputs are rejected.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/even_odd_checker.cpp -o build/even_odd_checker
+./build/even_odd_checker
+```
+
+Sample input:
+
+```text
+-7
+```
+
+Result (after the prompt):
+
+```text
+Odd
+```
