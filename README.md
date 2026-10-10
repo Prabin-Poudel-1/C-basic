@@ -166,3 +166,28 @@ Result (after the prompts):
 ```text
 Average: 20.00
 ```
+
+### Percentage and grade
+
+[percentage_and_grade.cpp](02-basic-mathematical-programs/percentage_and_grade.cpp) reads obtained marks and maximum marks, then calculates percentage = obtained / maximum × 100. Maximum marks must be positive; obtained marks must be between zero and maximum. Both values must be finite.
+
+Example practice scale (not an institutional grading policy): A ≥ 90%, B ≥ 80%, C ≥ 70%, D ≥ 60%, E ≥ 50%, otherwise F. Grade comparisons use the unrounded percentage; the displayed percentage is rounded to two decimal places.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 02-basic-mathematical-programs/percentage_and_grade.cpp -o build/percentage_and_grade
+./build/percentage_and_grade
+```
+
+Sample input:
+
+```text
+425 500
+```
+
+Result (after the prompt):
+
+```text
+Percentage: 85.00%
+Grade: B
+```
