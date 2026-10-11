@@ -255,3 +255,21 @@ Sample input:
 ```
 
 Result (after the prompt): `Largest: 20` (Java displays `20.0`).
+
+### Largest of three numbers
+
+[largest_of_three.cpp](03-decision-making/largest_of_three.cpp) reads three finite numbers and uses `if/else` comparisons to print the largest value. Tied maximum values are handled with `>=`. Integers, decimals, and scientific notation are accepted and interpreted using double-precision floating point; positive and negative zero compare equal.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/largest_of_three.cpp -o build/largest_of_three
+./build/largest_of_three
+```
+
+Sample input:
+
+```text
+10 20 15
+```
+
+Result (after the prompt): `Largest: 20` (Java displays `20.0`).
