@@ -273,3 +273,25 @@ Sample input:
 ```
 
 Result (after the prompt): `Largest: 20` (Java displays `20.0`).
+
+### Leap year
+
+[leap_year_checker.cpp](03-decision-making/leap_year_checker.cpp) reads one positive whole year and applies the Gregorian rule: divisible by 400, or divisible by 4 but not by 100. For example, 2000 is a leap year and 1900 is not. This exercise applies the rule to all accepted years, without modeling historical calendar changes. Accepted range: 1 to 9223372036854775807. Decimals and extra tokens are rejected.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/leap_year_checker.cpp -o build/leap_year_checker
+./build/leap_year_checker
+```
+
+Sample input:
+
+```text
+2024
+```
+
+Result (after the prompt):
+
+```text
+Leap year
+```
