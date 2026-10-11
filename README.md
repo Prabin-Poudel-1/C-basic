@@ -237,3 +237,21 @@ Result (after the prompt):
 ```text
 Odd
 ```
+
+### Largest of two numbers
+
+[largest_of_two.cpp](03-decision-making/largest_of_two.cpp) reads two finite numbers and uses `if/else` to print the larger value. If they compare equal, it reports that both are equal. Integers, decimals, and scientific notation are accepted and interpreted using double-precision floating point; positive and negative zero compare equal.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/largest_of_two.cpp -o build/largest_of_two
+./build/largest_of_two
+```
+
+Sample input:
+
+```text
+10 20
+```
+
+Result (after the prompt): `Largest: 20` (Java displays `20.0`).
