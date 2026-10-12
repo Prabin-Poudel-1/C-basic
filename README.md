@@ -317,3 +317,25 @@ Result (after the prompt):
 ```text
 Eligible by age.
 ```
+
+### Grade calculation
+
+[grade_calculator.cpp](03-decision-making/grade_calculator.cpp) reads one score out of 100, rather than calculating a percentage from marks. Uses the same example practice scale as PercentageAndGrade: A >= 90, B >= 80, C >= 70, D >= 60, E >= 50, otherwise F. The finite score must be in [0, 100]. Fractional scores use their unrounded value for comparison. This is an exercise scale, not an institutional grading policy.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/grade_calculator.cpp -o build/grade_calculator
+./build/grade_calculator
+```
+
+Sample input:
+
+```text
+85
+```
+
+Result (after the prompt):
+
+```text
+Grade: B
+```
