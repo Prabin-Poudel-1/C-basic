@@ -339,3 +339,25 @@ Result (after the prompt):
 ```text
 Grade: B
 ```
+
+### Divisible by 5 and 11
+
+[divisible_by_five_and_eleven.cpp](03-decision-making/divisible_by_five_and_eleven.cpp) reads one signed 64-bit integer and uses remainder checks joined by && to test divisibility by both 5 and 11. Zero and negative multiples of 55 satisfy the condition. Accepted range: -9223372036854775808 to 9223372036854775807; decimals and extra tokens are rejected.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/divisible_by_five_and_eleven.cpp -o build/divisible_by_five_and_eleven
+./build/divisible_by_five_and_eleven
+```
+
+Sample input:
+
+```text
+55
+```
+
+Result (after the prompt):
+
+```text
+Divisible by both 5 and 11.
+```
