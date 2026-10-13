@@ -383,3 +383,26 @@ Result (after the prompt):
 ```text
 Example bill: 600.00 currency units
 ```
+
+## Switch programs
+
+### Menu-driven calculator
+
+[menu_calculator.cpp](04-switch-programs/menu_calculator.cpp) repeatedly displays a menu: 1 add, 2 subtract, 3 multiply, 4 divide, 5 remainder, 0 exit. Enter the choice and each operand on separate lines. Uses a switch for arithmetic and double-precision values; remainder uses Java `%` or C++ `std::fmod`. Invalid numeric choices, division/remainder by zero, and overflowing results return to the menu. Malformed or non-finite input ends the program with an error.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/menu_calculator.cpp -o build/menu_calculator
+./build/menu_calculator
+```
+
+Sample input (divide 9 by 2, then exit):
+
+```text
+4
+9
+2
+0
+```
+
+Output includes `Result: 4.5` and `Goodbye.` along with the menus and prompts.
