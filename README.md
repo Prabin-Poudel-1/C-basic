@@ -361,3 +361,25 @@ Result (after the prompt):
 ```text
 Divisible by both 5 and 11.
 ```
+
+### Simple electricity bill
+
+[electricity_bill_calculator.cpp](03-decision-making/electricity_bill_calculator.cpp) reads one finite, non-negative number of consumed units. Fractional units are allowed. Uses fictional progressive rates for practice: the first 100 units cost 1.50 each, the next 100 cost 2.50 each, and units above 200 cost 4.00 each. Each rate applies only to its slab. No fixed charge, tax, or surcharge is included; these are not utility tariffs. Output uses generic currency units and two decimal places.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 03-decision-making/electricity_bill_calculator.cpp -o build/electricity_bill_calculator
+./build/electricity_bill_calculator
+```
+
+Sample input:
+
+```text
+250
+```
+
+Result (after the prompt):
+
+```text
+Example bill: 600.00 currency units
+```
