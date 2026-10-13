@@ -406,3 +406,25 @@ Sample input (divide 9 by 2, then exit):
 ```
 
 Output includes `Result: 4.5` and `Goodbye.` along with the menus and prompts.
+
+### Day number to day name
+
+[day_name.cpp](04-switch-programs/day_name.cpp) reads one whole-number day and uses a switch to select its name. Mapping: 1 Monday, 2 Tuesday, 3 Wednesday, 4 Thursday, 5 Friday, 6 Saturday, 7 Sunday. Values outside 1-7 are rejected; malformed input, decimals, and extra tokens are rejected too.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/day_name.cpp -o build/day_name
+./build/day_name
+```
+
+Sample input:
+
+```text
+3
+```
+
+Result (after the prompt):
+
+```text
+Wednesday
+```
