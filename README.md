@@ -428,3 +428,25 @@ Result (after the prompt):
 ```text
 Wednesday
 ```
+
+### Month number to month name
+
+[month_name.cpp](04-switch-programs/month_name.cpp) reads one whole-number month and uses a switch to select its English Gregorian month name: 1 January through 12 December. Values outside 1-12, malformed input, decimals, and extra tokens are rejected.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/month_name.cpp -o build/month_name
+./build/month_name
+```
+
+Sample input:
+
+```text
+10
+```
+
+Result (after the prompt):
+
+```text
+October
+```
