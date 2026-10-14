@@ -450,3 +450,25 @@ Result (after the prompt):
 ```text
 October
 ```
+
+### Simple ATM menu
+
+[simple_atm.cpp](04-switch-programs/simple_atm.cpp) simulates an account starting at 1000 whole currency units. Switch menu: 1 balance, 2 deposit, 3 withdraw, 0 exit. Enter every choice and amount on its own line. Amounts must be positive signed 64-bit integers; insufficient funds and balance overflow leave the balance unchanged. Invalid numeric choices and rejected transactions return to the menu; malformed input ends the program. Balance is kept only in memory and resets to 1000 on each launch. No banking connection or real transactions are involved.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/simple_atm.cpp -o build/simple_atm
+./build/simple_atm
+```
+
+Sample input (deposit 250, withdraw 100, then exit):
+
+```text
+2
+250
+3
+100
+0
+```
+
+Output includes `Balance: 1250`, `Balance: 1150`, and `Goodbye.` along with the menus and prompts.
