@@ -534,3 +534,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/sum_one_to_n.cpp -o build/
 ```
 
 Sample input: `10`
+
+### Multiplication table
+
+[multiplication_table.cpp](05-basic-loops/multiplication_table.cpp) Reads a signed integer and prints its first ten multiples. The input is limited to ±922337203685477580 so every product fits in a signed 64-bit integer. Negative numbers and zero are supported.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/multiplication_table.cpp -o build/multiplication_table
+./build/multiplication_table
+```
+
+Sample input: `7`
