@@ -472,4 +472,53 @@ Sample input (deposit 250, withdraw 100, then exit):
 ```
 
 Output includes `Balance: 1250`, `Balance: 1150`, and `Goodbye.` along with the menus and prompts.
-\n### Shape area calculator\n\n[shape_area_calculator.cpp](04-switch-programs/shape_area_calculator.cpp) Offers rectangle (length × width), circle (π × radius²), and triangle (base × height ÷ 2). Select a shape, then enter its dimensions on separate lines. Dimensions must be finite and non-negative. Results are shown to two decimal places.\n\n```sh\nmkdir -p build\ng++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/shape_area_calculator.cpp -o build/shape_area_calculator\n./build/shape_area_calculator\n```\n\nSample input: `2\n5\n`\n\n### Print numbers 1 to 100\n\n[print_one_to_hundred.cpp](05-basic-loops/print_one_to_hundred.cpp) Uses a for loop to print every integer from 1 through 100, one per line. No input is required.\n\n```sh\nmkdir -p build\ng++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/print_one_to_hundred.cpp -o build/print_one_to_hundred\n./build/print_one_to_hundred\n```\n\nSample input: `No input`\n\n### Print even numbers from 1 to 100\n\n[print_even_numbers.cpp](05-basic-loops/print_even_numbers.cpp) Uses a for loop that advances by two to print the even integers from 2 through 100, one per line. No input is required.\n\n```sh\nmkdir -p build\ng++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/print_even_numbers.cpp -o build/print_even_numbers\n./build/print_even_numbers\n```\n\nSample input: `No input`\n
+
+### Shape area calculator
+
+[shape_area_calculator.cpp](04-switch-programs/shape_area_calculator.cpp) Offers rectangle (length × width), circle (π × radius²), and triangle (base × height ÷ 2). Select a shape, then enter its dimensions on separate lines. Dimensions must be finite and non-negative. Results are shown to two decimal places.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/shape_area_calculator.cpp -o build/shape_area_calculator
+./build/shape_area_calculator
+```
+
+Sample input: `2
+5
+`
+
+### Print numbers 1 to 100
+
+[print_one_to_hundred.cpp](05-basic-loops/print_one_to_hundred.cpp) Uses a for loop to print every integer from 1 through 100, one per line. No input is required.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/print_one_to_hundred.cpp -o build/print_one_to_hundred
+./build/print_one_to_hundred
+```
+
+Sample input: `No input`
+
+### Print even numbers from 1 to 100
+
+[print_even_numbers.cpp](05-basic-loops/print_even_numbers.cpp) Uses a for loop that advances by two to print the even integers from 2 through 100, one per line. No input is required.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/print_even_numbers.cpp -o build/print_even_numbers
+./build/print_even_numbers
+```
+
+Sample input: `No input`
+
+### Print odd numbers from 1 to 100
+
+[print_odd_numbers.cpp](05-basic-loops/print_odd_numbers.cpp) Uses a for loop that advances by two to print odd integers from 1 through 99, one per line. No input is required.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/print_odd_numbers.cpp -o build/print_odd_numbers
+./build/print_odd_numbers
+```
+
+Sample input: `No input`
