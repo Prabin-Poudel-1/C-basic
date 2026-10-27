@@ -522,3 +522,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/print_odd_numbers.cpp -o b
 ```
 
 Sample input: `No input`
+
+### Sum from 1 to n
+
+[sum_one_to_n.cpp](05-basic-loops/sum_one_to_n.cpp) Reads a whole number n from 0 through 4294967295 and calculates n × (n + 1) ÷ 2. It divides an even factor before multiplying, keeping the result within the signed 64-bit range. n = 0 gives a sum of zero.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/sum_one_to_n.cpp -o build/sum_one_to_n
+./build/sum_one_to_n
+```
+
+Sample input: `10`
