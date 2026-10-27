@@ -472,3 +472,4 @@ Sample input (deposit 250, withdraw 100, then exit):
 ```
 
 Output includes `Balance: 1250`, `Balance: 1150`, and `Goodbye.` along with the menus and prompts.
+\n### Shape area calculator\n\n[shape_area_calculator.cpp](04-switch-programs/shape_area_calculator.cpp) Offers rectangle (length × width), circle (π × radius²), and triangle (base × height ÷ 2). Select a shape, then enter its dimensions on separate lines. Dimensions must be finite and non-negative. Results are shown to two decimal places.\n\n```sh\nmkdir -p build\ng++ -std=c++17 -Wall -Wextra -pedantic 04-switch-programs/shape_area_calculator.cpp -o build/shape_area_calculator\n./build/shape_area_calculator\n```\n\nSample input: `2\n5\n`\n
