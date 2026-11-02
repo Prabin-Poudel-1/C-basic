@@ -594,3 +594,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/palindrome_number.cpp -o 
 ```
 
 Sample input: `12321`
+
+### Armstrong number
+
+[armstrong_number.cpp](06-number-based/armstrong_number.cpp) For a non-negative signed 64-bit integer, counts its decimal digits and checks whether the sum of each digit raised to that count equals the original number. For example, 153 = 1³ + 5³ + 3³. Negative numbers are rejected; zero is an Armstrong number.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/armstrong_number.cpp -o build/armstrong_number
+./build/armstrong_number
+```
+
+Sample input: `153`
