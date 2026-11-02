@@ -546,3 +546,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/multiplication_table.cpp -
 ```
 
 Sample input: `7`
+
+### Power of a number
+
+[power_calculator.cpp](05-basic-loops/power_calculator.cpp) Reads a finite floating-point base and an integer exponent from -1024 through 1024. A loop multiplies the base by itself; negative exponents return the reciprocal. The result is printed with up to 10 significant digits. Zero with a negative exponent, non-finite inputs, and overflow are reported.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/power_calculator.cpp -o build/power_calculator
+./build/power_calculator
+```
+
+Sample input: `2 10`
