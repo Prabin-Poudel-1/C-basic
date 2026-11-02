@@ -570,3 +570,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/count_digits.cpp -o build/
 ```
 
 Sample input: `-12345`
+
+### Reverse a number
+
+[reverse_number.cpp](06-number-based/reverse_number.cpp) Reads a signed 64-bit integer and reverses its decimal digits with a loop. Leading zeroes in the reversed result disappear; a minus sign stays at the front. If the reversed value cannot fit in a signed 64-bit integer, the program reports it.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/reverse_number.cpp -o build/reverse_number
+./build/reverse_number
+```
+
+Sample input: `-120`
