@@ -558,3 +558,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/power_calculator.cpp -o bu
 ```
 
 Sample input: `2 10`
+
+### Count digits in a number
+
+[count_digits.cpp](05-basic-loops/count_digits.cpp) Reads one signed 64-bit integer and counts its base-10 digits with a do/while loop. The minus sign is not counted; zero has one digit. Decimals, extra values, and integers outside the signed 64-bit range are rejected.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 05-basic-loops/count_digits.cpp -o build/count_digits
+./build/count_digits
+```
+
+Sample input: `-12345`
