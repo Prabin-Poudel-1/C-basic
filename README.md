@@ -582,3 +582,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/reverse_number.cpp -o bui
 ```
 
 Sample input: `-120`
+
+### Palindrome number
+
+[palindrome_number.cpp](06-number-based/palindrome_number.cpp) Checks whether a non-negative signed 64-bit integer reads the same forward and backward. Uses a half-reversal loop to avoid overflowing while reversing large values. Negative numbers are not considered palindromes; zero is a palindrome.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/palindrome_number.cpp -o build/palindrome_number
+./build/palindrome_number
+```
+
+Sample input: `12321`
