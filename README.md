@@ -617,3 +617,14 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/prime_number.cpp -o build
 ```
 
 Sample input: `29` (result: `Prime number`)
+
+### Prime numbers in a range
+
+[prime_numbers_in_range.cpp](06-number-based/prime_numbers_in_range.cpp) reads an inclusive start and end as signed 32-bit whole numbers, then prints every prime in that range. Ranges may include negative numbers; values below 2 are skipped. The start must not exceed the end, and extra or invalid input is rejected.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/prime_numbers_in_range.cpp -o build/prime_numbers_in_range
+./build/prime_numbers_in_range
+```
+
+Sample input: `10 30` (result: `11 13 17 19 23 29`)
