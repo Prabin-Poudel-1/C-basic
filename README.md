@@ -628,3 +628,14 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/prime_numbers_in_range.cp
 ```
 
 Sample input: `10 30` (result: `11 13 17 19 23 29`)
+
+### Fibonacci series
+
+[fibonacci_series.cpp](06-number-based/fibonacci_series.cpp) reads a term count from 0 to 93 and prints that many Fibonacci numbers starting with 0, 1. The 93-term limit keeps every printed value within a signed 64-bit integer. Zero terms prints `No terms`; invalid counts and extra input are rejected.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/fibonacci_series.cpp -o build/fibonacci_series
+./build/fibonacci_series
+```
+
+Sample input: `10` (result: `0 1 1 2 3 5 8 13 21 34`)
