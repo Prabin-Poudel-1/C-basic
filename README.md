@@ -606,3 +606,14 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/armstrong_number.cpp -o b
 ```
 
 Sample input: `153`
+
+### Prime number
+
+[prime_number.cpp](06-number-based/prime_number.cpp) reads one signed 32-bit whole number and checks whether it is prime by trying divisors up to its square root. Numbers below 2 are not prime. Decimals, extra tokens, and out-of-range values are rejected.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/prime_number.cpp -o build/prime_number
+./build/prime_number
+```
+
+Sample input: `29` (result: `Prime number`)
