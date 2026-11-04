@@ -639,3 +639,14 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/fibonacci_series.cpp -o b
 ```
 
 Sample input: `10` (result: `0 1 1 2 3 5 8 13 21 34`)
+
+### Perfect number
+
+[perfect_number.cpp](06-number-based/perfect_number.cpp) checks a positive signed 32-bit integer by summing its positive proper divisors. For example, 6 is perfect because 1 + 2 + 3 = 6. Zero, negative values, and 1 are not perfect. Invalid or extra input is rejected.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/perfect_number.cpp -o build/perfect_number
+./build/perfect_number
+```
+
+Sample input: `28` (result: `Perfect number`)
