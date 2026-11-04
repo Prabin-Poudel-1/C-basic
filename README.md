@@ -672,3 +672,36 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/sum_of_digits.cpp -o buil
 ```
 
 Sample input: `-12345` (result: `15`)
+
+### Product of digits
+
+[product_of_digits.cpp](06-number-based/product_of_digits.cpp) solves the product of digits exercise. It accepts whole-number input and reports invalid input clearly.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/product_of_digits.cpp -o build/product_of_digits
+./build/product_of_digits
+```
+
+Sample input: `1234`
+
+### GCD/HCF
+
+[gcd_hcf.cpp](06-number-based/gcd_hcf.cpp) solves the gcd/hcf exercise. It accepts whole-number input and reports invalid input clearly.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/gcd_hcf.cpp -o build/gcd_hcf
+./build/gcd_hcf
+```
+
+Sample input: `48 18`
+
+### LCM
+
+[lcm_calculator.cpp](06-number-based/lcm_calculator.cpp) solves the lcm exercise. It accepts whole-number input and reports invalid input clearly.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/lcm_calculator.cpp -o build/lcm_calculator
+./build/lcm_calculator
+```
+
+Sample input: `12 18`

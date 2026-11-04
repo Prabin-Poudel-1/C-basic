@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){long long n; std::cout<<"Enter a signed whole number: "; if(!(std::cin>>n)){std::cout<<"Please enter one signed 64-bit whole number.\n";return 0;} if(std::cin>>std::ws&&std::cin.peek()!=std::char_traits<char>::eof()){std::cout<<"Please enter only one whole number.\n";return 0;} long long product=1; do{long long d=n%10; product*=d<0?-d:d; n/=10;}while(n!=0); std::cout<<"Product of digits: "<<product<<'\n';}
