@@ -650,3 +650,14 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/perfect_number.cpp -o bui
 ```
 
 Sample input: `28` (result: `Perfect number`)
+
+### Strong number
+
+[strong_number.cpp](06-number-based/strong_number.cpp) sums the factorials of the decimal digits of a non-negative signed 32-bit integer and compares the sum with the original value. Zero is not Strong because 0! = 1. Negative and invalid input is rejected.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/strong_number.cpp -o build/strong_number
+./build/strong_number
+```
+
+Sample input: `145` (result: `Strong number`)
