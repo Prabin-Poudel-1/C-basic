@@ -661,3 +661,14 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/strong_number.cpp -o buil
 ```
 
 Sample input: `145` (result: `Strong number`)
+
+### Sum of digits
+
+[sum_of_digits.cpp](06-number-based/sum_of_digits.cpp) adds the decimal digits of one signed 64-bit integer, ignoring its minus sign. Zero has a digit sum of zero. The calculation safely handles the minimum signed 64-bit value; invalid or extra input is rejected.
+
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/sum_of_digits.cpp -o build/sum_of_digits
+./build/sum_of_digits
+```
+
+Sample input: `-12345` (result: `15`)
