@@ -1,0 +1,3 @@
+#include <iostream>
+#include <numeric>
+int main(){long long a,b;std::cout<<"Enter two non-negative whole numbers: ";if(!(std::cin>>a>>b)){std::cout<<"Please enter two non-negative signed 64-bit whole numbers.\n";return 0;}if(std::cin>>std::ws&&std::cin.peek()!=std::char_traits<char>::eof()){std::cout<<"Please enter only two whole numbers.\n";return 0;}if(a<0||b<0){std::cout<<"Both numbers must be non-negative.\n";return 0;}if(a==0||b==0){std::cout<<"LCM: 0\n";return 0;}long long g=std::gcd(a,b);if(a/g>LLONG_MAX/b){std::cout<<"LCM exceeds the signed 64-bit range.\n";return 0;}std::cout<<"LCM: "<<(a/g)*b<<'\n';}
