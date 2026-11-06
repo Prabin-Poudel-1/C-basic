@@ -724,3 +724,9 @@ Sample input: `3`
 [number_triangle.cpp](07-pattern-programs/number_triangle.cpp) prints consecutive numbers in a growing triangle. Input size is 1–50.
 
 Sample input: `3`
+
+### Floyd's triangle
+
+[floyd_triangle.cpp](07-pattern-programs/floyd_triangle.cpp) prints consecutive numbers in Floyd triangle rows. Input size is 1–50.
+
+Sample input: `3`
