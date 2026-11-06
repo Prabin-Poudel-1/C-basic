@@ -705,3 +705,7 @@ g++ -std=c++17 -Wall -Wextra -pedantic 06-number-based/lcm_calculator.cpp -o bui
 ```
 
 Sample input: `12 18`
+
+### Square star pattern
+
+[square_star_pattern.cpp](07-pattern-programs/square_star_pattern.cpp) prints a square of stars for a size from 1 to 50. Compile with g++ -std=c++17 and run the program. Sample input: `3`.
