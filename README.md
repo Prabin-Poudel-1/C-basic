@@ -709,3 +709,6 @@ Sample input: `12 18`
 ### Square star pattern
 
 [square_star_pattern.cpp](07-pattern-programs/square_star_pattern.cpp) prints a square of stars for a size from 1 to 50. Compile with g++ -std=c++17 and run the program. Sample input: `3`.
+### Right triangle star pattern
+
+[right_triangle_pattern.cpp](07-pattern-programs/right_triangle_pattern.cpp) prints a growing right triangle for a size from 1 to 50. Compile with g++ -std=c++17 and run the program. Sample input: `3`.
