@@ -718,3 +718,9 @@ Sample input: `12 18`
 [pyramid_pattern.cpp](07-pattern-programs/pyramid_pattern.cpp) prints a centered pyramid of stars. Input size is 1–50.
 
 Sample input: `3`
+
+### Number triangle
+
+[number_triangle.cpp](07-pattern-programs/number_triangle.cpp) prints consecutive numbers in a growing triangle. Input size is 1–50.
+
+Sample input: `3`
