@@ -712,3 +712,9 @@ Sample input: `12 18`
 ### Right triangle star pattern
 
 [right_triangle_pattern.cpp](07-pattern-programs/right_triangle_pattern.cpp) prints a growing right triangle for a size from 1 to 50. Compile with g++ -std=c++17 and run the program. Sample input: `3`.
+
+### Pyramid pattern
+
+[pyramid_pattern.cpp](07-pattern-programs/pyramid_pattern.cpp) prints a centered pyramid of stars. Input size is 1–50.
+
+Sample input: `3`
