@@ -730,3 +730,9 @@ Sample input: `3`
 [floyd_triangle.cpp](07-pattern-programs/floyd_triangle.cpp) prints consecutive numbers in Floyd triangle rows. Input size is 1–50.
 
 Sample input: `3`
+
+### Pascal triangle
+
+[pascal_triangle.cpp](07-pattern-programs/pascal_triangle.cpp) prints Pascal triangle rows for a size from 1 to 20.
+
+Sample input: `5`
