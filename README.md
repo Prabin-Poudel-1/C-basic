@@ -736,3 +736,9 @@ Sample input: `3`
 [pascal_triangle.cpp](07-pattern-programs/pascal_triangle.cpp) prints Pascal triangle rows for a size from 1 to 20.
 
 Sample input: `5`
+
+### Diamond star pattern
+
+[diamond_pattern.cpp](07-pattern-programs/diamond_pattern.cpp) prints a centered diamond for half-height from 1 to 25.
+
+Sample input: `5`
