@@ -748,3 +748,9 @@ Sample input: `5`
 [add_two_numbers_function.cpp](08-functions-methods/add_two_numbers_function.cpp) adds two signed 32-bit integers in a reusable function.
 
 Sample input: `5`
+
+### maximum using function
+
+[maximum_using_function.cpp](08-functions-methods/maximum_using_function.cpp) finds the larger of two signed integers with a helper function.
+
+Sample input: `8 3`
