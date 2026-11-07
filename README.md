@@ -754,3 +754,9 @@ Sample input: `5`
 [maximum_using_function.cpp](08-functions-methods/maximum_using_function.cpp) finds the larger of two signed integers with a helper function.
 
 Sample input: `8 3`
+
+### prime checker function
+
+[prime_checker_function.cpp](08-functions-methods/prime_checker_function.cpp) checks primality using a reusable helper function.
+
+Sample input: `8 3`
