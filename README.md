@@ -742,3 +742,9 @@ Sample input: `5`
 [diamond_pattern.cpp](07-pattern-programs/diamond_pattern.cpp) prints a centered diamond for half-height from 1 to 25.
 
 Sample input: `5`
+
+### Add two numbers using a function
+
+[add_two_numbers_function.cpp](08-functions-methods/add_two_numbers_function.cpp) adds two signed 32-bit integers in a reusable function.
+
+Sample input: `5`
