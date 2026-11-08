@@ -832,3 +832,9 @@ Sample input: `3`
 [array_input_display.cpp](09-one-dimensional-arrays/array_input_display.cpp) reads up to 100 whole numbers and displays them in order.
 
 Sample input: `3`
+
+### sum of array elements
+
+[array_sum.cpp](09-one-dimensional-arrays/array_sum.cpp) reads up to 100 whole numbers and calculates their sum.
+
+Sample input: `3`

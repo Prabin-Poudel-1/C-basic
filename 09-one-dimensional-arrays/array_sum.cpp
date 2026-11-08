@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){int n;std::cout<<"Enter array size (1-100): ";if(!(std::cin>>n)||n<1||n>100){std::cout<<"Array size must be from 1 to 100.\n";return 0;}long long sum=0;std::cout<<"Enter "<<n<<" whole numbers: ";for(int i=0;i<n;++i){int value;if(!(std::cin>>value)){std::cout<<"Enter exactly "<<n<<" whole numbers.\n";return 0;}sum+=value;}if(std::cin>>std::ws&&std::cin.peek()!=std::char_traits<char>::eof()){std::cout<<"Enter only the array values.\n";return 0;}std::cout<<"Sum: "<<sum<<'\n';}
