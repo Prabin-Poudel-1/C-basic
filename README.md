@@ -766,3 +766,9 @@ Sample input: `8 3`
 [factorial_using_function.cpp](08-functions-methods/factorial_using_function.cpp) calculates factorial for values from 0 through 20 with a helper function.
 
 Sample input: `8 3`
+
+### Fibonacci using function
+
+[fibonacci_using_function.cpp](08-functions-methods/fibonacci_using_function.cpp) prints a Fibonacci sequence using a function, with a term count from 0 to 93.
+
+Sample input: `8 2`
