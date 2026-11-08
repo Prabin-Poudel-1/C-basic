@@ -784,3 +784,9 @@ Sample input: `8 2`
 [pass_arguments_return_value.cpp](08-functions-methods/pass_arguments_return_value.cpp) computes rectangle area by passing dimensions to a function and returning its result.
 
 Sample input: `8 2`
+
+### recursive factorial
+
+[recursive_factorial.cpp](28-recursion-problems/recursive_factorial.cpp) calculates factorial recursively for values from 0 to 20.
+
+Sample input: `5`
