@@ -826,3 +826,9 @@ Sample input: `48 18`
 [recursive_binary_search.cpp](28-recursion-problems/recursive_binary_search.cpp) searches a sorted array recursively and reports the matching index or not found.
 
 Sample input: `3`
+
+### array input and display
+
+[array_input_display.cpp](09-one-dimensional-arrays/array_input_display.cpp) reads up to 100 whole numbers and displays them in order.
+
+Sample input: `3`
