@@ -814,3 +814,9 @@ Sample input: `48 18`
 [recursive_reverse_number.cpp](28-recursion-problems/recursive_reverse_number.cpp) reverses the digits of a signed 32-bit integer recursively.
 
 Sample input: `48 18`
+
+### Tower of Hanoi
+
+[tower_of_hanoi.cpp](28-recursion-problems/tower_of_hanoi.cpp) prints the recursive moves for 1 to 10 disks and reports the move count.
+
+Sample input: `48 18`
