@@ -802,3 +802,9 @@ Sample input: `5`
 [recursive_sum.cpp](28-recursion-problems/recursive_sum.cpp) adds digits recursively and handles the signed 64-bit minimum.
 
 Sample input: `5`
+
+### recursive GCD
+
+[recursive_gcd.cpp](28-recursion-problems/recursive_gcd.cpp) finds the GCD/HCF of two signed 32-bit numbers using Euclid’s recursive algorithm.
+
+Sample input: `48 18`
