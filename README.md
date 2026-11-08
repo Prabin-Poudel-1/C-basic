@@ -796,3 +796,9 @@ Sample input: `5`
 [recursive_fibonacci.cpp](28-recursion-problems/recursive_fibonacci.cpp) prints Fibonacci terms with a memoized recursive function for up to 93 terms.
 
 Sample input: `5`
+
+### recursive sum of digits
+
+[recursive_sum.cpp](28-recursion-problems/recursive_sum.cpp) adds digits recursively and handles the signed 64-bit minimum.
+
+Sample input: `5`
