@@ -820,3 +820,9 @@ Sample input: `48 18`
 [tower_of_hanoi.cpp](28-recursion-problems/tower_of_hanoi.cpp) prints the recursive moves for 1 to 10 disks and reports the move count.
 
 Sample input: `48 18`
+
+### recursive binary search
+
+[recursive_binary_search.cpp](28-recursion-problems/recursive_binary_search.cpp) searches a sorted array recursively and reports the matching index or not found.
+
+Sample input: `3`
