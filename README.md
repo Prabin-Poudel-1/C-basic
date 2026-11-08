@@ -790,3 +790,9 @@ Sample input: `8 2`
 [recursive_factorial.cpp](28-recursion-problems/recursive_factorial.cpp) calculates factorial recursively for values from 0 to 20.
 
 Sample input: `5`
+
+### recursive Fibonacci
+
+[recursive_fibonacci.cpp](28-recursion-problems/recursive_fibonacci.cpp) prints Fibonacci terms with a memoized recursive function for up to 93 terms.
+
+Sample input: `5`
