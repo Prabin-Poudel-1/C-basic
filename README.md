@@ -808,3 +808,9 @@ Sample input: `5`
 [recursive_gcd.cpp](28-recursion-problems/recursive_gcd.cpp) finds the GCD/HCF of two signed 32-bit numbers using Euclid’s recursive algorithm.
 
 Sample input: `48 18`
+
+### recursive reverse number
+
+[recursive_reverse_number.cpp](28-recursion-problems/recursive_reverse_number.cpp) reverses the digits of a signed 32-bit integer recursively.
+
+Sample input: `48 18`
