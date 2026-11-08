@@ -778,3 +778,9 @@ Sample input: `8 2`
 [function_overloading.cpp](08-functions-methods/function_overloading.cpp) demonstrates overloaded addition for integer and decimal values.
 
 Sample input: `8 2`
+
+### Pass arguments and return values
+
+[pass_arguments_return_value.cpp](08-functions-methods/pass_arguments_return_value.cpp) computes rectangle area by passing dimensions to a function and returning its result.
+
+Sample input: `8 2`
