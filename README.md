@@ -772,3 +772,9 @@ Sample input: `8 3`
 [fibonacci_using_function.cpp](08-functions-methods/fibonacci_using_function.cpp) prints a Fibonacci sequence using a function, with a term count from 0 to 93.
 
 Sample input: `8 2`
+
+### Function overloading
+
+[function_overloading.cpp](08-functions-methods/function_overloading.cpp) demonstrates overloaded addition for integer and decimal values.
+
+Sample input: `8 2`
