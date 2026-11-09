@@ -954,3 +954,22 @@ Sample input:
 ```
 
 Result: `Merged array: 1 2 3 4 5`
+
+### Remove duplicate array elements
+
+[remove_duplicates.cpp](09-one-dimensional-arrays/remove_duplicates.cpp) reads 1 to 100 whole numbers and keeps the first occurrence of each value. It preserves the original order of the remaining elements.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 09-one-dimensional-arrays/remove_duplicates.cpp -o build/remove_duplicates
+./build/remove_duplicates
+```
+
+Sample input:
+
+```text
+6
+4 2 4 3 2 3
+```
+
+Result: `Array without duplicates: 4 2 3`
