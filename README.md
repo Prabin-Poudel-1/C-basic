@@ -844,3 +844,9 @@ Sample input: `3`
 [array_average.cpp](09-one-dimensional-arrays/array_average.cpp) calculates the average of 1 to 100 signed whole numbers.
 
 Sample input: `3 2 4 6`
+
+### largest and smallest array elements
+
+[largest_smallest_array.cpp](09-one-dimensional-arrays/largest_smallest_array.cpp) finds the minimum and maximum values in the input array.
+
+Sample input: `3 2 4 6`
