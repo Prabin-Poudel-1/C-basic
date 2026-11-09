@@ -933,3 +933,24 @@ Sample input:
 ```
 
 Result: `Copied array: 7 -2 7 0`
+
+### Merge two arrays
+
+[merge_arrays.cpp](09-one-dimensional-arrays/merge_arrays.cpp) reads two arrays, each with 1 to 100 whole numbers, and copies their values in order into one merged array.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 09-one-dimensional-arrays/merge_arrays.cpp -o build/merge_arrays
+./build/merge_arrays
+```
+
+Sample input:
+
+```text
+3
+1 2 3
+2
+4 5
+```
+
+Result: `Merged array: 1 2 3 4 5`
