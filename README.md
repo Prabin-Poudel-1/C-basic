@@ -894,3 +894,23 @@ Sample input:
 ```
 
 Result: `Even count: 3` and `Odd count: 3`
+
+### Search for an array element
+
+[search_array_element.cpp](09-one-dimensional-arrays/search_array_element.cpp) reads an array of 1 to 100 whole numbers and then a target value. It uses a linear search and reports the zero-based index of the first match, or `Not found`.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 09-one-dimensional-arrays/search_array_element.cpp -o build/search_array_element
+./build/search_array_element
+```
+
+Sample input:
+
+```text
+6
+4 8 2 8 -1 0
+8
+```
+
+Result: `Found at index 1`
