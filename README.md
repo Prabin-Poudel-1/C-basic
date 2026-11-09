@@ -838,3 +838,9 @@ Sample input: `3`
 [array_sum.cpp](09-one-dimensional-arrays/array_sum.cpp) reads up to 100 whole numbers and calculates their sum.
 
 Sample input: `3`
+
+### average of array
+
+[array_average.cpp](09-one-dimensional-arrays/array_average.cpp) calculates the average of 1 to 100 signed whole numbers.
+
+Sample input: `3 2 4 6`
