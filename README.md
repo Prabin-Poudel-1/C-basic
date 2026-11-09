@@ -856,3 +856,22 @@ Sample input: `3 2 4 6`
 [second_largest_array.cpp](09-one-dimensional-arrays/second_largest_array.cpp) finds the second distinct largest value, including for arrays with duplicate or negative values.
 
 Sample input: `3 2 4 6`
+
+### Reverse an array
+
+[reverse_array.cpp](09-one-dimensional-arrays/reverse_array.cpp) reads an array size from 1 to 100 followed by that many whole numbers, then prints the values in reverse order. A one-element array is supported.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 09-one-dimensional-arrays/reverse_array.cpp -o build/reverse_array
+./build/reverse_array
+```
+
+Sample input:
+
+```text
+5
+1 2 3 4 5
+```
+
+Result (after the prompt): `Reversed array: 5 4 3 2 1`

@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){int n;std::cout<<"Enter array size (1-100): ";if(!(std::cin>>n)||n<1||n>100){std::cout<<"Array size must be from 1 to 100.\n";return 0;}int a[100];for(int i=0;i<n;++i)if(!(std::cin>>a[i])){std::cout<<"Enter exactly "<<n<<" whole numbers.\n";return 0;}if(std::cin>>std::ws&&std::cin.peek()!=std::char_traits<char>::eof()){std::cout<<"Enter only the array values.\n";return 0;}std::cout<<"Reversed array: ";for(int i=n-1;i>=0;--i){if(i<n-1)std::cout<<' ';std::cout<<a[i];}std::cout<<'\n';}
