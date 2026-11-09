@@ -914,3 +914,22 @@ Sample input:
 ```
 
 Result: `Found at index 1`
+
+### Copy an array
+
+[copy_array.cpp](09-one-dimensional-arrays/copy_array.cpp) reads 1 to 100 whole numbers, copies each value into a second array, and displays the copy in its original order.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 09-one-dimensional-arrays/copy_array.cpp -o build/copy_array
+./build/copy_array
+```
+
+Sample input:
+
+```text
+4
+7 -2 7 0
+```
+
+Result: `Copied array: 7 -2 7 0`
