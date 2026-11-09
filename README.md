@@ -875,3 +875,22 @@ Sample input:
 ```
 
 Result (after the prompt): `Reversed array: 5 4 3 2 1`
+
+### Count even and odd array elements
+
+[count_even_odd_array.cpp](09-one-dimensional-arrays/count_even_odd_array.cpp) reads 1 to 100 whole numbers and counts how many are even or odd. Zero and negative numbers are handled using their remainder when divided by two.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 09-one-dimensional-arrays/count_even_odd_array.cpp -o build/count_even_odd_array
+./build/count_even_odd_array
+```
+
+Sample input:
+
+```text
+6
+0 1 2 3 -4 -5
+```
+
+Result: `Even count: 3` and `Odd count: 3`
