@@ -1073,3 +1073,22 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+### Quick sort
+
+[quick_sort.cpp](11-sorting-algorithms/quick_sort.cpp) sorts 1 to 100 whole numbers in ascending order. It partitions values around a pivot, then recursively sorts the portions on either side.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 11-sorting-algorithms/quick_sort.cpp -o build/quick_sort
+./build/quick_sort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
