@@ -973,3 +973,25 @@ Sample input:
 ```
 
 Result: `Array without duplicates: 4 2 3`
+
+## Searching algorithms
+
+### Binary search
+
+[binary_search.cpp](10-searching-algorithms/binary_search.cpp) searches a sorted ascending array of 1 to 100 whole numbers. It repeatedly checks the middle value, reducing the search range by half. The result uses a zero-based index.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 10-searching-algorithms/binary_search.cpp -o build/binary_search
+./build/binary_search
+```
+
+Sample input:
+
+```text
+6
+-5 -1 0 4 8 12
+8
+```
+
+Result: `Found at index 4`
