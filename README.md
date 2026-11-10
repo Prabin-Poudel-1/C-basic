@@ -1035,3 +1035,22 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+### Insertion sort
+
+[insertion_sort.cpp](11-sorting-algorithms/insertion_sort.cpp) sorts 1 to 100 whole numbers in ascending order. It takes each next value and inserts it into its correct position in the already sorted part of the array.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 11-sorting-algorithms/insertion_sort.cpp -o build/insertion_sort
+./build/insertion_sort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
