@@ -995,3 +995,24 @@ Sample input:
 ```
 
 Result: `Found at index 4`
+
+## Sorting algorithms
+
+### Bubble sort
+
+[bubble_sort.cpp](11-sorting-algorithms/bubble_sort.cpp) sorts 1 to 100 whole numbers in ascending order. It compares neighboring values and swaps them when they are out of order; an already sorted pass ends the algorithm early.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 11-sorting-algorithms/bubble_sort.cpp -o build/bubble_sort
+./build/bubble_sort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
