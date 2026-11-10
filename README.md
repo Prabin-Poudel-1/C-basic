@@ -1054,3 +1054,22 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+### Merge sort
+
+[merge_sort.cpp](11-sorting-algorithms/merge_sort.cpp) sorts 1 to 100 whole numbers in ascending order. It recursively divides the array into halves, sorts them, and merges the sorted halves back together.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 11-sorting-algorithms/merge_sort.cpp -o build/merge_sort
+./build/merge_sort
+```
+
+Sample input:
+
+```text
+6
+5 -1 3 3 0 2
+```
+
+Result: `Sorted array: -1 0 2 3 3 5`
