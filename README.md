@@ -1092,3 +1092,30 @@ Sample input:
 ```
 
 Result: `Sorted array: -1 0 2 3 3 5`
+
+## Two-dimensional arrays and matrices
+
+### Input and display a matrix
+
+[matrix_input_display.cpp](12-two-dimensional-arrays/matrix_input_display.cpp) reads row and column counts from 1 to 10, then reads and displays the matrix row by row.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 12-two-dimensional-arrays/matrix_input_display.cpp -o build/matrix_input_display
+./build/matrix_input_display
+```
+
+Sample input:
+
+```text
+2 3
+1 2 3
+4 5 6
+```
+
+The displayed matrix is:
+
+```text
+1 2 3
+4 5 6
+```
