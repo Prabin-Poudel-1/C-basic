@@ -1202,3 +1202,29 @@ The product matrix is:
 58 64
 139 154
 ```
+
+### Matrix transpose
+
+[matrix_transpose.cpp](12-two-dimensional-arrays/matrix_transpose.cpp) reads a matrix with 1 to 10 rows and columns, then displays its transpose by turning each original column into a row.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 12-two-dimensional-arrays/matrix_transpose.cpp -o build/matrix_transpose
+./build/matrix_transpose
+```
+
+Sample input:
+
+```text
+2 3
+1 2 3
+4 5 6
+```
+
+The transpose is:
+
+```text
+1 4
+2 5
+3 6
+```
