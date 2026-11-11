@@ -1173,3 +1173,32 @@ The difference matrix is:
 8 6
 4 2
 ```
+
+### Matrix multiplication
+
+[matrix_multiplication.cpp](12-two-dimensional-arrays/matrix_multiplication.cpp) multiplies two matrices when the first matrix's column count equals the second matrix's row count. Each dimension must be from 1 to 10.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 12-two-dimensional-arrays/matrix_multiplication.cpp -o build/matrix_multiplication
+./build/matrix_multiplication
+```
+
+Sample input:
+
+```text
+2 3
+1 2 3
+4 5 6
+3 2
+7 8
+9 10
+11 12
+```
+
+The product matrix is:
+
+```text
+58 64
+139 154
+```
