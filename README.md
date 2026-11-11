@@ -1119,3 +1119,30 @@ The displayed matrix is:
 1 2 3
 4 5 6
 ```
+
+### Matrix addition
+
+[matrix_addition.cpp](12-two-dimensional-arrays/matrix_addition.cpp) adds two matrices with the same dimensions. Enter row and column counts from 1 to 10, then enter each matrix row by row.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 12-two-dimensional-arrays/matrix_addition.cpp -o build/matrix_addition
+./build/matrix_addition
+```
+
+Sample input:
+
+```text
+2 2
+1 2
+3 4
+5 6
+7 8
+```
+
+The sum matrix is:
+
+```text
+6 8
+10 12
+```
