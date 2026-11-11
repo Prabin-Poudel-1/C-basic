@@ -1290,3 +1290,23 @@ Sample input:
 ```
 
 Result: `Largest matrix element: 11`
+
+## String programs
+
+### Read and display a string
+
+[read_display_string.cpp](13-string-programs/read_display_string.cpp) reads a complete line, including spaces, and displays it. An empty line is accepted.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/read_display_string.cpp -o build/read_display_string
+./build/read_display_string
+```
+
+Sample input:
+
+```text
+Hello, Java and C++!
+```
+
+Result: `You entered: Hello, Java and C++!`
