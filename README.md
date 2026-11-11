@@ -1270,3 +1270,23 @@ Sample input:
 ```
 
 Result: `Symmetric matrix`
+
+### Find the largest matrix element
+
+[largest_matrix_element.cpp](12-two-dimensional-arrays/largest_matrix_element.cpp) reads a matrix with 1 to 10 rows and columns and tracks the largest whole number as each value is entered. Negative values are supported.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 12-two-dimensional-arrays/largest_matrix_element.cpp -o build/largest_matrix_element
+./build/largest_matrix_element
+```
+
+Sample input:
+
+```text
+2 3
+-5 2 7
+0 11 4
+```
+
+Result: `Largest matrix element: 11`
