@@ -1249,3 +1249,24 @@ Sample input:
 ```
 
 Result: `Main diagonal sum: 15`
+
+### Check whether a matrix is symmetric
+
+[symmetric_matrix.cpp](12-two-dimensional-arrays/symmetric_matrix.cpp) reads a square matrix of size 1 to 10 and checks whether each value at row `i`, column `j` equals the value at row `j`, column `i`.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 12-two-dimensional-arrays/symmetric_matrix.cpp -o build/symmetric_matrix
+./build/symmetric_matrix
+```
+
+Sample input:
+
+```text
+3
+1 2 3
+2 4 5
+3 5 6
+```
+
+Result: `Symmetric matrix`
