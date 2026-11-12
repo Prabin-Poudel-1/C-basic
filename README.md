@@ -1352,3 +1352,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/palindrome_string.cpp 
 Sample input: `A man, a plan, a canal: Panama!`
 
 Result: `Palindrome`
+
+### Count vowels and consonants
+
+[count_vowels_consonants.cpp](13-string-programs/count_vowels_consonants.cpp) counts ASCII English letters in a line, treating uppercase and lowercase equally. Spaces, punctuation, and digits are ignored; `a`, `e`, `i`, `o`, and `u` are vowels, while other letters are consonants.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/count_vowels_consonants.cpp -o build/count_vowels_consonants
+./build/count_vowels_consonants
+```
+
+Sample input: `Hello, World! 123`
+
+Result: `Vowels: 3` and `Consonants: 7`
