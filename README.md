@@ -1394,3 +1394,22 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/change_case.cpp -o bui
 Sample input: `Java 101!`
 
 Result: `Uppercase: JAVA 101!` and `Lowercase: java 101!`
+
+### Compare two strings
+
+[compare_strings.cpp](13-string-programs/compare_strings.cpp) reads two complete lines and compares them lexicographically, including spaces and letter case. It reports whether they are equal or which comes first.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/compare_strings.cpp -o build/compare_strings
+./build/compare_strings
+```
+
+Sample input:
+
+```text
+apple
+banana
+```
+
+Result: `First string comes before the second`
