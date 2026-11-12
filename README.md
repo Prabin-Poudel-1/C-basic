@@ -1413,3 +1413,22 @@ banana
 ```
 
 Result: `First string comes before the second`
+
+### Concatenate two strings
+
+[concatenate_strings.cpp](13-string-programs/concatenate_strings.cpp) reads two complete lines and joins them in order. It does not add a separator, so include spaces in either input line when needed.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/concatenate_strings.cpp -o build/concatenate_strings
+./build/concatenate_strings
+```
+
+Sample input:
+
+```text
+Good 
+morning
+```
+
+Result: `Concatenated string: Good morning`
