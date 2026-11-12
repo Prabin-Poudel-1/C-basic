@@ -1380,3 +1380,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/count_words.cpp -o bui
 Sample input: `Hello, world! from Java`
 
 Result: `Word count: 4`
+
+### Convert text to uppercase and lowercase
+
+[change_case.cpp](13-string-programs/change_case.cpp) reads a full line and displays uppercase and lowercase versions. This beginner example converts ASCII English letters and leaves spaces, digits, and punctuation unchanged.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/change_case.cpp -o build/change_case
+./build/change_case
+```
+
+Sample input: `Java 101!`
+
+Result: `Uppercase: JAVA 101!` and `Lowercase: java 101!`
