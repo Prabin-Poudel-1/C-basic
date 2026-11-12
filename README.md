@@ -1324,3 +1324,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/string_length.cpp -o b
 Sample input: `Hello world`
 
 Result: `String length: 11`
+
+### Reverse a string
+
+[reverse_string.cpp](13-string-programs/reverse_string.cpp) reads a full line, including spaces, and prints its characters in reverse order. An empty line remains empty.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/reverse_string.cpp -o build/reverse_string
+./build/reverse_string
+```
+
+Sample input: `A man`
+
+Result: `Reversed string: nam A`
