@@ -1432,3 +1432,17 @@ morning
 ```
 
 Result: `Concatenated string: Good morning`
+
+### Character frequency
+
+[character_frequency.cpp](13-string-programs/character_frequency.cpp) counts each distinct character in a full line, preserving the order of its first appearance. Counting is case-sensitive; spaces are shown as `(space)`. An empty line has no character entries.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/character_frequency.cpp -o build/character_frequency
+./build/character_frequency
+```
+
+Sample input: `banana`
+
+Result: `b: 1`, `a: 3`, and `n: 2`
