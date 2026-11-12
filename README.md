@@ -1338,3 +1338,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/reverse_string.cpp -o 
 Sample input: `A man`
 
 Result: `Reversed string: nam A`
+
+### Check for a palindrome string
+
+[palindrome_string.cpp](13-string-programs/palindrome_string.cpp) checks whether a line reads the same forward and backward. It ignores spaces, punctuation, and letter case; this beginner example compares ASCII letters and digits.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/palindrome_string.cpp -o build/palindrome_string
+./build/palindrome_string
+```
+
+Sample input: `A man, a plan, a canal: Panama!`
+
+Result: `Palindrome`
