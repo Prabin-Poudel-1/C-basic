@@ -1310,3 +1310,17 @@ Hello, Java and C++!
 ```
 
 Result: `You entered: Hello, Java and C++!`
+
+### Find the length of a string
+
+[string_length.cpp](13-string-programs/string_length.cpp) reads a full line of text and prints its length, including spaces. An empty line has length zero. For this basic byte-based example, use ASCII text.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/string_length.cpp -o build/string_length
+./build/string_length
+```
+
+Sample input: `Hello world`
+
+Result: `String length: 11`
