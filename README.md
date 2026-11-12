@@ -1366,3 +1366,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/count_vowels_consonant
 Sample input: `Hello, World! 123`
 
 Result: `Vowels: 3` and `Consonants: 7`
+
+### Count words in a string
+
+[count_words.cpp](13-string-programs/count_words.cpp) counts whitespace-separated words in a full line. Multiple spaces do not add extra words, and an empty or whitespace-only line has a count of zero.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/count_words.cpp -o build/count_words
+./build/count_words
+```
+
+Sample input: `Hello, world! from Java`
+
+Result: `Word count: 4`
