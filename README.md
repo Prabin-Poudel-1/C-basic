@@ -1631,3 +1631,5 @@ Ada Lovelace
 ```
 
 The annual salary is displayed as 660006.00.
+
+The annual salary equals monthly salary multiplied by 12.
