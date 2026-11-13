@@ -1589,3 +1589,25 @@ Grace Hopper
 ```
 
 The first student passes with an average of 90.00%; the second fails because one subject is below 40.
+
+## Basic OOP
+
+### Create a Student class
+
+[student_class.cpp](15-basic-oop/student_class.cpp) creates a `Student` object, stores its name, positive roll number, and positive age, then calls a method to display its details. Names may contain spaces.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/student_class.cpp -o build/student_class
+./build/student_class
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+101
+36
+```
+
+The program displays the student's name, roll number, and age.
