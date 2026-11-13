@@ -1474,3 +1474,25 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/duplicate_characters.c
 Sample input: `banana`
 
 Result: `a: 3` and `n: 2`
+
+## Structures and classes
+
+### Student information
+
+[student_information.cpp](14-structures-classes/student_information.cpp) stores a student's name, positive roll number, and positive age in a `Student` struct, then displays the record. Names can contain spaces.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 14-structures-classes/student_information.cpp -o build/student_information
+./build/student_information
+```
+
+Sample input:
+
+```text
+Prabin Poudel
+27
+20
+```
+
+The program displays the name, roll number, and age.
