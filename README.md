@@ -1496,3 +1496,23 @@ Prabin Poudel
 ```
 
 The program displays the name, roll number, and age.
+
+### Employee information
+
+[employee_information.cpp](14-structures-classes/employee_information.cpp) stores an employee's name, positive ID, and non-negative monthly salary in an `Employee` struct, then displays the record. Names can contain spaces.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 14-structures-classes/employee_information.cpp -o build/employee_information
+./build/employee_information
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+102
+55000.50
+```
+
+The salary is displayed to two decimal places.
