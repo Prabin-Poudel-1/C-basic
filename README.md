@@ -1537,3 +1537,27 @@ J. R. R. Tolkien
 ```
 
 The program displays all four fields.
+
+### Multiple student records
+
+[multiple_student_records.cpp](14-structures-classes/multiple_student_records.cpp) stores and displays 1–100 student records in an array of `Student` structs. Each name may contain spaces; roll numbers and ages must be positive whole numbers.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 14-structures-classes/multiple_student_records.cpp -o build/multiple_student_records
+./build/multiple_student_records
+```
+
+Sample input:
+
+```text
+2
+Ada Lovelace
+101
+36
+Grace Hopper
+102
+85
+```
+
+The program displays both complete student records.
