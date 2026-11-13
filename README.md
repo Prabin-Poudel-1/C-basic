@@ -1446,3 +1446,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/character_frequency.cp
 Sample input: `banana`
 
 Result: `b: 1`, `a: 3`, and `n: 2`
+
+### Remove spaces from a string
+
+[remove_spaces.cpp](13-string-programs/remove_spaces.cpp) removes ordinary space characters from a full line while preserving all other characters and their order.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/remove_spaces.cpp -o build/remove_spaces
+./build/remove_spaces
+```
+
+Sample input: `a b  c`
+
+Result: `Without spaces: abc`
