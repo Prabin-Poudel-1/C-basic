@@ -1460,3 +1460,17 @@ g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/remove_spaces.cpp -o b
 Sample input: `a b  c`
 
 Result: `Without spaces: abc`
+
+### Find duplicate characters
+
+[duplicate_characters.cpp](13-string-programs/duplicate_characters.cpp) lists each character that appears more than once, with its count. Results follow the order of first appearance; matching is case-sensitive, and spaces are labeled `(space)`.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 13-string-programs/duplicate_characters.cpp -o build/duplicate_characters
+./build/duplicate_characters
+```
+
+Sample input: `banana`
+
+Result: `a: 3` and `n: 2`
