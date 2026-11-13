@@ -1516,3 +1516,24 @@ Ada Lovelace
 ```
 
 The salary is displayed to two decimal places.
+
+### Book information
+
+[book_information.cpp](14-structures-classes/book_information.cpp) stores a book's title, author, ISBN, and positive page count in a `Book` struct, then displays the record. The ISBN is kept as text so leading zeroes are preserved.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 14-structures-classes/book_information.cpp -o build/book_information
+./build/book_information
+```
+
+Sample input:
+
+```text
+The Hobbit
+J. R. R. Tolkien
+9780547928227
+310
+```
+
+The program displays all four fields.
