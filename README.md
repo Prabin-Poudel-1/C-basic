@@ -1611,3 +1611,23 @@ Ada Lovelace
 ```
 
 The program displays the student's name, roll number, and age.
+
+### Create an Employee class
+
+[employee_class.cpp](15-basic-oop/employee_class.cpp) creates an `Employee` object with a name, positive ID, and finite non-negative monthly salary. Its methods calculate annual salary and display the details. Names may contain spaces.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/employee_class.cpp -o build/employee_class
+./build/employee_class
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+102
+55000.50
+```
+
+The annual salary is displayed as 660006.00.
