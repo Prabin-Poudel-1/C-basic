@@ -1695,3 +1695,22 @@ g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/constructor_example.cpp -o b
 ```
 
 No input is required. The default name is `New Student`, and the default roll number is `1`.
+
+### Parameterized constructor
+
+[parameterized_constructor.cpp](15-basic-oop/parameterized_constructor.cpp) passes a student's name and positive roll number to a `Student` constructor when creating the object, then displays the stored values.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/parameterized_constructor.cpp -o build/parameterized_constructor
+./build/parameterized_constructor
+```
+
+Sample input:
+
+```text
+Grace Hopper
+102
+```
+
+The program displays the name and roll number.
