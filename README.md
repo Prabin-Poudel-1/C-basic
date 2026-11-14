@@ -1714,3 +1714,15 @@ Grace Hopper
 ```
 
 The program displays the name and roll number.
+
+### Constructor overloading
+
+[constructor_overloading.cpp](15-basic-oop/constructor_overloading.cpp) defines two `Student` constructors: one uses default values, and another accepts a name and roll number. The program creates and displays one object with each constructor.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/constructor_overloading.cpp -o build/constructor_overloading
+./build/constructor_overloading
+```
+
+No input is required. The output shows both the default student and Grace Hopper.
