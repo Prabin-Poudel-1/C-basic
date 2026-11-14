@@ -1647,3 +1647,25 @@ g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/rectangle_class.cpp -o build
 Sample input: `5 3`
 
 Result: area `15.00`, perimeter `16.00`.
+
+### Create a BankAccount class
+
+[bank_account_class.cpp](15-basic-oop/bank_account_class.cpp) creates a simple `BankAccount` object with a holder, account number, and starting balance. Its methods deposit money and decline a withdrawal that exceeds the balance. Enter finite, non-negative amounts.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/bank_account_class.cpp -o build/bank_account_class
+./build/bank_account_class
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+001234
+1000
+250
+400
+```
+
+The balance is 1250.00 before withdrawal and 850.00 afterward.
