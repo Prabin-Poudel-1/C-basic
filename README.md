@@ -1747,3 +1747,17 @@ Ada Lovelace
 ```
 
 The program displays the validated name and age.
+
+### Bank account balance management
+
+[bank_account_balance.cpp](16-encapsulation/bank_account_balance.cpp) protects the balance in a private field. Deposit and withdrawal methods validate transactions; a withdrawal above the available balance is declined.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 16-encapsulation/bank_account_balance.cpp -o build/bank_account_balance
+./build/bank_account_balance
+```
+
+Sample input: `1000 250 400`
+
+Result: `Balance: 850.00`. An oversized withdrawal leaves the deposited balance unchanged.
