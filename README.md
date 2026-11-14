@@ -1683,3 +1683,15 @@ g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/object_method_calling.cpp -o
 Sample input: `Ada Lovelace`
 
 Result: `Hello, Ada Lovelace!`
+
+### Constructor example
+
+[constructor_example.cpp](15-basic-oop/constructor_example.cpp) demonstrates a no-argument constructor. It assigns default values to a `Student` object when the object is created, then displays them.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/constructor_example.cpp -o build/constructor_example
+./build/constructor_example
+```
+
+No input is required. The default name is `New Student`, and the default roll number is `1`.
