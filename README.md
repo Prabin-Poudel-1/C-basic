@@ -1726,3 +1726,24 @@ g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/constructor_overloading.cpp 
 ```
 
 No input is required. The output shows both the default student and Grace Hopper.
+
+## Encapsulation
+
+### Private variables with getter and setter
+
+[private_variables.cpp](16-encapsulation/private_variables.cpp) keeps a student's name and age private. Setter methods validate values, and getter methods provide read access.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 16-encapsulation/private_variables.cpp -o build/private_variables
+./build/private_variables
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+36
+```
+
+The program displays the validated name and age.
