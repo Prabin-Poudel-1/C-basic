@@ -1633,3 +1633,17 @@ Ada Lovelace
 The annual salary is displayed as 660006.00.
 
 The annual salary equals monthly salary multiplied by 12.
+
+### Create a Rectangle class
+
+[rectangle_class.cpp](15-basic-oop/rectangle_class.cpp) stores a rectangle's non-negative length and width in a `Rectangle` object. Its methods calculate area and perimeter; results are displayed to two decimal places.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/rectangle_class.cpp -o build/rectangle_class
+./build/rectangle_class
+```
+
+Sample input: `5 3`
+
+Result: area `15.00`, perimeter `16.00`.
