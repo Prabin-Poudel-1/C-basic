@@ -1669,3 +1669,17 @@ Ada Lovelace
 ```
 
 The balance is 1250.00 before withdrawal and 850.00 afterward.
+
+### Object creation and method calling
+
+[object_method_calling.cpp](15-basic-oop/object_method_calling.cpp) creates a `Greeter` object, sets its name, and calls the object's `greet` method.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 15-basic-oop/object_method_calling.cpp -o build/object_method_calling
+./build/object_method_calling
+```
+
+Sample input: `Ada Lovelace`
+
+Result: `Hello, Ada Lovelace!`
