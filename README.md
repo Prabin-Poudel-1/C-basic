@@ -1781,3 +1781,25 @@ Sample input:
 ```
 
 The average is `84.33`. Values below 0 or above 100 are rejected.
+
+## Inheritance
+
+### Person to Student
+
+[person_student_inheritance.cpp](17-inheritance/person_student_inheritance.cpp) defines a `Person` base class and a `Student` subclass. The student inherits name and age, adds a roll number, and displays inherited and student-specific details.
+
+```sh
+mkdir -p build
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/person_student_inheritance.cpp -o build/person_student_inheritance
+./build/person_student_inheritance
+```
+
+Sample input:
+
+```text
+Ada Lovelace
+36
+101
+```
+
+The output includes the student's name, age, and roll number.
