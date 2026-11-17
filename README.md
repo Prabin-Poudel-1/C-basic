@@ -1810,3 +1810,10 @@ The output includes the student's name, age, and roll number.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/person_employee_inheritance.cpp -o /tmp/person_employee && /tmp/person_employee
 ```
 Enter name, age, ID, and salary on separate lines.
+
+### Shape to Circle/Rectangle inheritance
+`shape_circle_rectangle.cpp` derives `Circle` and `Rectangle` from an abstract `Shape` base and calculates both areas.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/shape_circle_rectangle.cpp -o /tmp/shapes && /tmp/shapes
+```
+Enter radius, then rectangle length and width.
