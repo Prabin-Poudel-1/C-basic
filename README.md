@@ -1824,3 +1824,10 @@ Enter radius, then rectangle length and width.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/vehicle_car_bike.cpp -o /tmp/vehicles && /tmp/vehicles
 ```
 Enter car brand, speed, seats, then bike brand, speed, gears.
+
+### Single inheritance
+`single_inheritance.cpp` demonstrates one subclass (`Dog`) inheriting from one base class (`Animal`).
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/single_inheritance.cpp -o /tmp/single && /tmp/single
+```
+Enter an animal name and breed.
