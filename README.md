@@ -1803,3 +1803,10 @@ Ada Lovelace
 ```
 
 The output includes the student's name, age, and roll number.
+
+### Person to Employee inheritance
+[person_employee_inheritance.cpp](17-inheritance/person_employee_inheritance.cpp) derives `Employee` from `Person`, adding an ID and monthly salary.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/person_employee_inheritance.cpp -o /tmp/person_employee && /tmp/person_employee
+```
+Enter name, age, ID, and salary on separate lines.
