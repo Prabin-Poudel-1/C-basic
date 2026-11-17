@@ -1817,3 +1817,10 @@ Enter name, age, ID, and salary on separate lines.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/shape_circle_rectangle.cpp -o /tmp/shapes && /tmp/shapes
 ```
 Enter radius, then rectangle length and width.
+
+### Vehicle to Car/Bike inheritance
+`vehicle_car_bike.cpp` shares brand and speed in a base class; `Car` adds seats and `Bike` adds gears.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/vehicle_car_bike.cpp -o /tmp/vehicles && /tmp/vehicles
+```
+Enter car brand, speed, seats, then bike brand, speed, gears.
