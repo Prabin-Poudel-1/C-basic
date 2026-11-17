@@ -1831,3 +1831,10 @@ Enter car brand, speed, seats, then bike brand, speed, gears.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/single_inheritance.cpp -o /tmp/single && /tmp/single
 ```
 Enter an animal name and breed.
+
+### Multilevel inheritance
+`multilevel_inheritance.cpp` demonstrates `Person` → `Employee` → `Manager`.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/multilevel_inheritance.cpp -o /tmp/multi && /tmp/multi
+```
+Enter name, positive ID, and department.
