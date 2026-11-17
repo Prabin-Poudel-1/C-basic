@@ -1845,3 +1845,10 @@ Enter name, positive ID, and department.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/hierarchical_inheritance.cpp -o /tmp/hier && /tmp/hier
 ```
 Enter student name, roll, teacher name, and subject on separate lines.
+
+### Multiple inheritance in C++
+`multiple_inheritance.cpp` shows a `Student` inheriting features from both `Athlete` and `Musician`.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/multiple_inheritance.cpp -o /tmp/multiple && /tmp/multiple
+```
+Enter a name, sport, and instrument.
