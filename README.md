@@ -1838,3 +1838,10 @@ Enter an animal name and breed.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/multilevel_inheritance.cpp -o /tmp/multi && /tmp/multi
 ```
 Enter name, positive ID, and department.
+
+### Hierarchical inheritance
+`hierarchical_inheritance.cpp` gives `Student` and `Teacher` the same `Person` base class.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/hierarchical_inheritance.cpp -o /tmp/hier && /tmp/hier
+```
+Enter student name, roll, teacher name, and subject on separate lines.
