@@ -1861,3 +1861,11 @@ Enter a name, sport, and instrument.
 g++ -std=c++17 -Wall -Wextra -pedantic 18-polymorphism/method_overloading.cpp -o /tmp/overload && /tmp/overload
 ```
 Sample input: `2 5 3`; areas are `12.57` and `15.00`. Negative or non-finite dimensions are rejected.
+
+### Method overriding
+[method_overriding.cpp](18-polymorphism/method_overriding.cpp) overrides the virtual `Animal::makeSound()` method in `Dog`. Calling it through an `Animal` reference demonstrates runtime polymorphism.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 18-polymorphism/method_overriding.cpp -o build/method_overriding
+./build/method_overriding
+```
+No input is required. The base object prints `Animal makes a sound.`, and the overridden call prints `Dog says: Woof!`.
