@@ -1852,3 +1852,12 @@ Enter student name, roll, teacher name, and subject on separate lines.
 g++ -std=c++17 -Wall -Wextra -pedantic 17-inheritance/multiple_inheritance.cpp -o /tmp/multiple && /tmp/multiple
 ```
 Enter a name, sport, and instrument.
+
+## Polymorphism
+
+### Method overloading
+[method_overloading.cpp](18-polymorphism/method_overloading.cpp) overloads `area`: one method accepts a circle radius, and another accepts rectangle length and width.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 18-polymorphism/method_overloading.cpp -o /tmp/overload && /tmp/overload
+```
+Sample input: `2 5 3`; areas are `12.57` and `15.00`. Negative or non-finite dimensions are rejected.
