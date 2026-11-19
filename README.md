@@ -1869,3 +1869,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 18-polymorphism/method_overriding.cpp -o 
 ./build/method_overriding
 ```
 No input is required. The base object prints `Animal makes a sound.`, and the overridden call prints `Dog says: Woof!`.
+
+### Runtime polymorphism
+[runtime_polymorphism.cpp](18-polymorphism/runtime_polymorphism.cpp) stores `Circle` and `Rectangle` objects behind `Shape` pointers. Their overridden virtual `area()` methods are selected at runtime.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 18-polymorphism/runtime_polymorphism.cpp -o build/runtime_polymorphism
+./build/runtime_polymorphism
+```
+Enter a non-negative circle radius, rectangle length, and width. For input `2 4 3`, the areas are `12.57` and `12.00`. Zero dimensions are accepted; negative, non-finite, or extra input is rejected.
