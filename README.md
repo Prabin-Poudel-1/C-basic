@@ -1897,3 +1897,13 @@ g++ -std=c++17 -Wall -Wextra -pedantic 20-operator-overloading/complex_number_ad
 ./build/complex_number_addition
 ```
 Enter real and imaginary parts for both numbers. Input `3 2 1 -5` produces `4.00 - 3.00i`. Zero and negative parts are allowed; non-finite or extra input is rejected.
+
+## Exception handling
+
+### Divide-by-zero handling
+[divide_by_zero.cpp](21-exception-handling/divide_by_zero.cpp) reads a dividend and divisor, then catches a `std::runtime_error` when the divisor is zero.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/divide_by_zero.cpp -o build/divide_by_zero
+./build/divide_by_zero
+```
+Input `12 3` prints `Result: 4.00`; input `12 0` prints a clear error. Finite decimal and negative values are accepted, but extra input is rejected.
