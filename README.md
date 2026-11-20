@@ -1877,3 +1877,13 @@ g++ -std=c++17 -Wall -Wextra -pedantic 18-polymorphism/runtime_polymorphism.cpp 
 ./build/runtime_polymorphism
 ```
 Enter a non-negative circle radius, rectangle length, and width. For input `2 4 3`, the areas are `12.57` and `12.00`. Zero dimensions are accepted; negative, non-finite, or extra input is rejected.
+
+## Abstraction
+
+### Abstract Employee class
+[abstract_employee.cpp](19-abstraction/abstract_employee.cpp) defines `Employee` with a pure virtual monthly-pay method. `SalariedEmployee` implements it, and the base class displays the result.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 19-abstraction/abstract_employee.cpp -o build/abstract_employee
+./build/abstract_employee
+```
+Enter a non-empty employee name and a finite, non-negative monthly salary. Example input: `Ada Lovelace` then `3500`; output: `Ada Lovelace's monthly pay: 3500.00`. Zero salary is accepted.
