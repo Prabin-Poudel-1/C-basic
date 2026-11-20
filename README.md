@@ -1887,3 +1887,13 @@ g++ -std=c++17 -Wall -Wextra -pedantic 19-abstraction/abstract_employee.cpp -o b
 ./build/abstract_employee
 ```
 Enter a non-empty employee name and a finite, non-negative monthly salary. Example input: `Ada Lovelace` then `3500`; output: `Ada Lovelace's monthly pay: 3500.00`. Zero salary is accepted.
+
+## Operator overloading
+
+### Add two complex numbers
+[complex_number_addition.cpp](20-operator-overloading/complex_number_addition.cpp) overloads `+` to add the real and imaginary parts of two complex numbers.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 20-operator-overloading/complex_number_addition.cpp -o build/complex_number_addition
+./build/complex_number_addition
+```
+Enter real and imaginary parts for both numbers. Input `3 2 1 -5` produces `4.00 - 3.00i`. Zero and negative parts are allowed; non-finite or extra input is rejected.
