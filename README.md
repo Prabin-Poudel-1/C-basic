@@ -1931,3 +1931,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/multiple_catch_bloc
 ./build/multiple_catch_blocks
 ```
 Input `12 3` prints `Result: 4.00`. Input `12 0` reports division by zero, and non-numeric or extra input is rejected.
+
+### Custom exception
+[custom_exception.cpp](21-exception-handling/custom_exception.cpp) defines an `InvalidAgeException` class derived from `std::exception` and throws it for an age outside the allowed range.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/custom_exception.cpp -o build/custom_exception
+./build/custom_exception
+```
+Input `18` prints `Valid age: 18`; ages below 0 or above 130 are rejected with the custom exception message.
