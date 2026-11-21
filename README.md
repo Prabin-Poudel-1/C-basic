@@ -1915,3 +1915,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/invalid_age_excepti
 ./build/invalid_age_exception
 ```
 Input `20` prints `Age accepted: 20`; `0` is also valid, while negative ages and ages above 130 produce an error.
+
+### Invalid input handling
+[invalid_input_handling.cpp](21-exception-handling/invalid_input_handling.cpp) checks input-stream failure and rejects anything other than exactly two whole numbers before adding them.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/invalid_input_handling.cpp -o build/invalid_input_handling
+./build/invalid_input_handling
+```
+Input `12 -5` prints `Sum: 7`. Decimal, non-numeric, missing, or extra values produce a clear message.
