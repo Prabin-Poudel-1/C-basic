@@ -1923,3 +1923,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/invalid_input_handl
 ./build/invalid_input_handling
 ```
 Input `12 -5` prints `Sum: 7`. Decimal, non-numeric, missing, or extra values produce a clear message.
+
+### Multiple catch blocks
+[multiple_catch_blocks.cpp](21-exception-handling/multiple_catch_blocks.cpp) demonstrates separate handlers for invalid number text, values outside the supported range, and arithmetic errors such as division by zero.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/multiple_catch_blocks.cpp -o build/multiple_catch_blocks
+./build/multiple_catch_blocks
+```
+Input `12 3` prints `Result: 4.00`. Input `12 0` reports division by zero, and non-numeric or extra input is rejected.
