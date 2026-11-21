@@ -1939,3 +1939,13 @@ g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/custom_exception.cp
 ./build/custom_exception
 ```
 Input `18` prints `Valid age: 18`; ages below 0 or above 130 are rejected with the custom exception message.
+
+## File handling
+
+### Create a file
+[create_file.cpp](22-file-handling/create_file.cpp) creates an empty `practice_output.txt` in the current working directory. It reports if that file already exists and handles file-system errors.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/create_file.cpp -o build/create_file
+./build/create_file
+```
+No input is required. Run the command from a directory where you want the file created.
