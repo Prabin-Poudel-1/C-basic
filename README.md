@@ -1907,3 +1907,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/divide_by_zero.cpp 
 ./build/divide_by_zero
 ```
 Input `12 3` prints `Result: 4.00`; input `12 0` prints a clear error. Finite decimal and negative values are accepted, but extra input is rejected.
+
+### Invalid age exception
+[invalid_age_exception.cpp](21-exception-handling/invalid_age_exception.cpp) throws and catches `std::out_of_range` when an age is outside the accepted 0 to 130 range.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 21-exception-handling/invalid_age_exception.cpp -o build/invalid_age_exception
+./build/invalid_age_exception
+```
+Input `20` prints `Age accepted: 20`; `0` is also valid, while negative ages and ages above 130 produce an error.
