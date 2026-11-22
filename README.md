@@ -1957,3 +1957,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/write_data_to_file.cpp -
 ./build/write_data_to_file
 ```
 Sample input: `Hello from C++`; the same text is written to the file. An empty line is allowed.
+
+### Read data from a file
+[read_data_from_file.cpp](22-file-handling/read_data_from_file.cpp) reads and prints each line from `practice_data.txt` in the current working directory. It reports a missing file and handles empty files.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/read_data_from_file.cpp -o build/read_data_from_file
+./build/read_data_from_file
+```
+Create the file first with the write-data example. No input is required.
