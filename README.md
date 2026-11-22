@@ -1965,3 +1965,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/read_data_from_file.cpp 
 ./build/read_data_from_file
 ```
 Create the file first with the write-data example. No input is required.
+
+### Append data
+[append_data_to_file.cpp](22-file-handling/append_data_to_file.cpp) appends one line to `practice_data.txt`; if the file does not exist, it is created.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/append_data_to_file.cpp -o build/append_data_to_file
+./build/append_data_to_file
+```
+Enter one line to append. An empty line is allowed, and existing content is preserved.
