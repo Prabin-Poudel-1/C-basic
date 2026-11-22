@@ -1949,3 +1949,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/create_file.cpp -o build
 ./build/create_file
 ```
 No input is required. Run the command from a directory where you want the file created.
+
+### Write data to a file
+[write_data_to_file.cpp](22-file-handling/write_data_to_file.cpp) reads one line and saves it as UTF-8 text in `practice_data.txt` in the current working directory. Running it again replaces that file's contents.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/write_data_to_file.cpp -o build/write_data_to_file
+./build/write_data_to_file
+```
+Sample input: `Hello from C++`; the same text is written to the file. An empty line is allowed.
