@@ -1973,3 +1973,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/append_data_to_file.cpp 
 ./build/append_data_to_file
 ```
 Enter one line to append. An empty line is allowed, and existing content is preserved.
+
+### Store student records
+[store_student_records.cpp](22-file-handling/store_student_records.cpp) collects 1 to 100 students and writes each name and mark to `student_records.txt` as a comma-separated line. It validates all input before saving.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/store_student_records.cpp -o build/store_student_records
+./build/store_student_records
+```
+For example, enter `2`, then `Asha Rai`, `85`, `Ben`, and `92`. Names must be non-empty and cannot contain commas; marks must be from 0 to 100.
