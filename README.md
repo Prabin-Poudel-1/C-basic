@@ -1981,3 +1981,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/store_student_records.cp
 ./build/store_student_records
 ```
 For example, enter `2`, then `Asha Rai`, `85`, `Ben`, and `92`. Names must be non-empty and cannot contain commas; marks must be from 0 to 100.
+
+### Search records from a file
+[search_student_records.cpp](22-file-handling/search_student_records.cpp) searches `student_records.txt` for an exact student name and displays every matching record.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/search_student_records.cpp -o build/search_student_records
+./build/search_student_records
+```
+Create the file with the student-record example first. Enter a name such as `Asha Rai`; names are matched exactly, including case.
