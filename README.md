@@ -1989,3 +1989,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/search_student_records.c
 ./build/search_student_records
 ```
 Create the file with the student-record example first. Enter a name such as `Asha Rai`; names are matched exactly, including case.
+
+### Update a record
+[update_student_record.cpp](22-file-handling/update_student_record.cpp) finds the first exact name match in `student_records.txt` and replaces that student's marks. Invalid input and missing names leave the file unchanged.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/update_student_record.cpp -o build/update_student_record
+./build/update_student_record
+```
+Create the records file first. Enter a student name, then new marks from 0 to 100.
