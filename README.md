@@ -2040,3 +2040,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/linked_list_stack.cpp -o build/l
 ./build/linked_list_stack
 ```
 Choose `1` to push an integer, `2` to pop the top item, `3` to display from top to bottom, or `0` to exit. Popping an empty stack is handled with a message.
+
+### Balanced parentheses
+[balanced_parentheses.cpp](25-stack/balanced_parentheses.cpp) uses a character stack to check matching `()`, `[]`, and `{}` pairs. Other expression characters are ignored.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/balanced_parentheses.cpp -o build/balanced_parentheses
+./build/balanced_parentheses
+```
+Enter one expression on a line. For example, `{a + [b * (c + d)]}` is balanced, while `([)]` is not.
