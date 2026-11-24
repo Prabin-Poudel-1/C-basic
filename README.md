@@ -1997,3 +1997,12 @@ g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/update_student_record.cp
 ./build/update_student_record
 ```
 Create the records file first. Enter a student name, then new marks from 0 to 100.
+
+
+### Delete a record
+[delete_student_record.cpp](22-file-handling/delete_student_record.cpp) removes the first record whose student name exactly matches the input. If the name is missing or the input is invalid, the records file is left unchanged.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 22-file-handling/delete_student_record.cpp -o build/delete_student_record
+./build/delete_student_record
+```
+Create `student_records.txt` with the student-record example first. Enter one exact student name, such as `Asha Rai`; the program removes that student's record and keeps all other lines.
