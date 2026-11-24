@@ -2032,3 +2032,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/array_stack.cpp -o build/array_s
 ./build/array_stack
 ```
 Choose `1` to push an integer, `2` to pop the top item, `3` to display from top to bottom, or `0` to exit.
+
+### Stack using a linked list
+[linked_list_stack.cpp](25-stack/linked_list_stack.cpp) implements a last-in, first-out stack with linked nodes, so it grows as values are pushed instead of using a fixed-size array.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/linked_list_stack.cpp -o build/linked_list_stack
+./build/linked_list_stack
+```
+Choose `1` to push an integer, `2` to pop the top item, `3` to display from top to bottom, or `0` to exit. Popping an empty stack is handled with a message.
