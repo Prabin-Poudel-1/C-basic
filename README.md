@@ -2016,3 +2016,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 24-dynamic-memory-collections/student_rec
 ./build/student_records_collection
 ```
 Choose `1` to enter a name and marks, `2` to list records, `3` to search by exact name, `4` to delete the first exact name match, or `0` to exit. Marks must be from 0 to 100.
+
+### Sort student objects
+[sort_student_objects.cpp](24-dynamic-memory-collections/sort_student_objects.cpp) stores student objects in a `vector` and sorts them by marks from lowest to highest, then by name for equal marks.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 24-dynamic-memory-collections/sort_student_objects.cpp -o build/sort_student_objects
+./build/sort_student_objects
+```
+Enter a count from 0 to 100, then one name and mark (0 to 100) per student. For example, `2`, `Asha`, `85`, `Ben`, `70` prints Ben before Asha.
