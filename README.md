@@ -2024,3 +2024,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 24-dynamic-memory-collections/sort_studen
 ./build/sort_student_objects
 ```
 Enter a count from 0 to 100, then one name and mark (0 to 100) per student. For example, `2`, `Asha`, `85`, `Ben`, `70` prints Ben before Asha.
+
+### Stack using an array
+[array_stack.cpp](25-stack/array_stack.cpp) implements a last-in, first-out stack with a fixed capacity of five integers. It reports full and empty stack operations.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/array_stack.cpp -o build/array_stack
+./build/array_stack
+```
+Choose `1` to push an integer, `2` to pop the top item, `3` to display from top to bottom, or `0` to exit.
