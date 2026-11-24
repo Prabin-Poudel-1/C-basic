@@ -2048,3 +2048,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/balanced_parentheses.cpp -o buil
 ./build/balanced_parentheses
 ```
 Enter one expression on a line. For example, `{a + [b * (c + d)]}` is balanced, while `([)]` is not.
+
+### Infix to postfix conversion
+[infix_to_postfix.cpp](25-stack/infix_to_postfix.cpp) converts expressions with letters or numbers, parentheses, and binary `+`, `-`, `*`, `/`, and `^` operators. Exponentiation is right-associative; unary operators are not supported.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/infix_to_postfix.cpp -o build/infix_to_postfix
+./build/infix_to_postfix
+```
+Enter one expression on a line. For example, `a+b*(c-d)` becomes `a b c d - * +`; malformed expressions are rejected.
