@@ -2072,3 +2072,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 26-queue/array_queue.cpp -o build/array_q
 ./build/array_queue
 ```
 Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
+
+### Queue using a linked list
+[linked_list_queue.cpp](26-queue/linked_list_queue.cpp) implements a first-in, first-out queue with linked nodes. It grows as items are enqueued and releases each node when it is dequeued.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 26-queue/linked_list_queue.cpp -o build/linked_list_queue
+./build/linked_list_queue
+```
+Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
