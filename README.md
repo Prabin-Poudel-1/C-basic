@@ -2096,3 +2096,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 26-queue/priority_queue_example.cpp -o bu
 ./build/priority_queue_example
 ```
 Choose `1` to add an integer priority, `2` to remove the highest priority, `3` to display priorities from highest to lowest, or `0` to exit.
+
+### Singly linked list
+[singly_linked_list.cpp](27-linked-lists/singly_linked_list.cpp) creates nodes that each store an integer and a link to the next node, then traverses the list to display it. Allocated nodes are freed before the program exits.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/singly_linked_list.cpp -o build/singly_linked_list
+./build/singly_linked_list
+```
+Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
