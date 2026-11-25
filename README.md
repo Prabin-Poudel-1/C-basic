@@ -2080,3 +2080,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 26-queue/linked_list_queue.cpp -o build/l
 ./build/linked_list_queue
 ```
 Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
+
+### Circular queue
+[circular_queue.cpp](26-queue/circular_queue.cpp) stores up to five integers in a circular array, reusing positions as items leave the front.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 26-queue/circular_queue.cpp -o build/circular_queue
+./build/circular_queue
+```
+Choose `1` to enqueue, `2` to dequeue, `3` to display from front to rear, or `0` to exit. Enqueuing to a full queue and dequeuing from an empty queue are handled.
