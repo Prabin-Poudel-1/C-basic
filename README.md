@@ -2056,3 +2056,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/infix_to_postfix.cpp -o build/in
 ./build/infix_to_postfix
 ```
 Enter one expression on a line. For example, `a+b*(c-d)` becomes `a b c d - * +`; malformed expressions are rejected.
+
+### Postfix evaluation
+[evaluate_postfix.cpp](25-stack/evaluate_postfix.cpp) evaluates a space-separated postfix expression with numeric operands and the binary `+`, `-`, `*`, and `/` operators. Division by zero and malformed expressions are rejected.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/evaluate_postfix.cpp -o build/evaluate_postfix
+./build/evaluate_postfix
+```
+For example, `12 3 4 * +` prints `Result: 24`. Enter one expression on a line.
