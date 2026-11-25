@@ -2064,3 +2064,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 25-stack/evaluate_postfix.cpp -o build/ev
 ./build/evaluate_postfix
 ```
 For example, `12 3 4 * +` prints `Result: 24`. Enter one expression on a line.
+
+### Queue using an array
+[array_queue.cpp](26-queue/array_queue.cpp) implements a first-in, first-out queue with a fixed linear array of five integers. Dequeued positions are reused after the queue becomes empty; this simple linear queue does not wrap around.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 26-queue/array_queue.cpp -o build/array_queue
+./build/array_queue
+```
+Choose `1` to enqueue an integer, `2` to dequeue from the front, `3` to display from front to rear, or `0` to exit.
