@@ -2136,3 +2136,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/reverse_linked_list.cpp -
 ./build/reverse_linked_list
 ```
 Enter a count from 0 to 100, then one integer per line. The original first value becomes the last value.
+
+### Doubly linked list
+[doubly_linked_list.cpp](27-linked-lists/doubly_linked_list.cpp) links each integer node to both its previous and next node, then traverses the list in both directions. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/doubly_linked_list.cpp -o build/doubly_linked_list
+./build/doubly_linked_list
+```
+Enter a count from 0 to 100, then one integer per line. The output shows the forward and backward order.
