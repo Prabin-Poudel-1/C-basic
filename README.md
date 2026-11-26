@@ -2104,3 +2104,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/singly_linked_list.cpp -o
 ./build/singly_linked_list
 ```
 Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
+
+### Insert at the beginning or end
+[insert_linked_list_nodes.cpp](27-linked-lists/insert_linked_list_nodes.cpp) inserts integer nodes at either end of a singly linked list and displays the list. Allocated nodes are freed on exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/insert_linked_list_nodes.cpp -o build/insert_linked_list_nodes
+./build/insert_linked_list_nodes
+```
+Choose `1` to insert at the beginning, `2` to insert at the end, `3` to display, or `0` to exit.
