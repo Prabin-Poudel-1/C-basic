@@ -2144,3 +2144,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/doubly_linked_list.cpp -o
 ./build/doubly_linked_list
 ```
 Enter a count from 0 to 100, then one integer per line. The output shows the forward and backward order.
+
+### Circular linked list
+[circular_linked_list.cpp](27-linked-lists/circular_linked_list.cpp) links the final node back to the head and displays exactly one full traversal, avoiding an endless loop. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/circular_linked_list.cpp -o build/circular_linked_list
+./build/circular_linked_list
+```
+Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
