@@ -2184,3 +2184,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/search_bst.cpp -o build/search_b
 ./build/search_bst
 ```
 Enter a count from 0 to 100, the tree's integer values, and the target value.
+
+### Delete from a binary search tree
+[delete_from_bst.cpp](29-trees/delete_from_bst.cpp) removes a value from a BST, handling leaf nodes, nodes with one child, and nodes with two children. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/delete_from_bst.cpp -o build/delete_from_bst
+./build/delete_from_bst
+```
+Enter a count from 0 to 100, the tree's integer values, and the target value to remove.
