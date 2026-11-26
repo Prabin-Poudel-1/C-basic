@@ -2176,3 +2176,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/insert_into_bst.cpp -o build/ins
 ./build/insert_into_bst
 ```
 Enter an initial count from 0 to 100, its integer values, then the value to insert.
+
+### Search a binary search tree
+[search_bst.cpp](29-trees/search_bst.cpp) searches a BST recursively, choosing the left or right subtree using the node value. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/search_bst.cpp -o build/search_bst
+./build/search_bst
+```
+Enter a count from 0 to 100, the tree's integer values, and the target value.
