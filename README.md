@@ -2168,3 +2168,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/binary_search_tree.cpp -o build/
 ./build/binary_search_tree
 ```
 Enter a count from 0 to 100, then that many integer values.
+
+### Insert into a binary search tree
+[insert_into_bst.cpp](29-trees/insert_into_bst.cpp) builds a BST from initial values, inserts one new value in the correct position, and displays the in-order result. Duplicate values are not added.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/insert_into_bst.cpp -o build/insert_into_bst
+./build/insert_into_bst
+```
+Enter an initial count from 0 to 100, its integer values, then the value to insert.
