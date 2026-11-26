@@ -2160,3 +2160,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/binary_tree_array.cpp -o build/b
 ./build/binary_tree_array
 ```
 Enter a count from 0 to 100 and that many integer node values in level order. The program displays each node and its children.
+
+### Binary search tree
+[binary_search_tree.cpp](29-trees/binary_search_tree.cpp) arranges input integers so smaller values go left and larger values go right, then uses an in-order traversal to display the sorted values. Duplicate values are ignored.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/binary_search_tree.cpp -o build/binary_search_tree
+./build/binary_search_tree
+```
+Enter a count from 0 to 100, then that many integer values.
