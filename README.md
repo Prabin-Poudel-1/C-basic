@@ -2192,3 +2192,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/delete_from_bst.cpp -o build/del
 ./build/delete_from_bst
 ```
 Enter a count from 0 to 100, the tree's integer values, and the target value to remove.
+
+### In-order traversal
+[inorder_traversal.cpp](29-trees/inorder_traversal.cpp) recursively visits the left child, current node, then right child of a complete binary tree stored in level-order vector form.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/inorder_traversal.cpp -o build/inorder_traversal
+./build/inorder_traversal
+```
+Enter a count from 0 to 100 and that many node values in level order.
