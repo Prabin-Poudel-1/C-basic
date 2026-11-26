@@ -2152,3 +2152,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/circular_linked_list.cpp 
 ./build/circular_linked_list
 ```
 Enter a count from 0 to 100, then one integer per line. A count of zero displays an empty list.
+
+### Binary tree in an array
+[binary_tree_array.cpp](29-trees/binary_tree_array.cpp) stores a complete binary tree in a vector. For index `i`, the children are at `2 * i + 1` and `2 * i + 2` when those positions exist.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/binary_tree_array.cpp -o build/binary_tree_array
+./build/binary_tree_array
+```
+Enter a count from 0 to 100 and that many integer node values in level order. The program displays each node and its children.
