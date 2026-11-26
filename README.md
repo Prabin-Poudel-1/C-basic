@@ -2128,3 +2128,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/search_linked_list_node.c
 ./build/search_linked_list_node
 ```
 Enter a count, that many integer values, and the target value. The program reports when no node matches.
+
+### Reverse a linked list
+[reverse_linked_list.cpp](27-linked-lists/reverse_linked_list.cpp) reverses a singly linked list by changing each node's next link, then displays the new order. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/reverse_linked_list.cpp -o build/reverse_linked_list
+./build/reverse_linked_list
+```
+Enter a count from 0 to 100, then one integer per line. The original first value becomes the last value.
