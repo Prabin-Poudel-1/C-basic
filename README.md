@@ -2112,3 +2112,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/insert_linked_list_nodes.
 ./build/insert_linked_list_nodes
 ```
 Choose `1` to insert at the beginning, `2` to insert at the end, `3` to display, or `0` to exit.
+
+### Delete a node
+[delete_linked_list_node.cpp](27-linked-lists/delete_linked_list_node.cpp) removes the first node with a matching integer value from a singly linked list and displays the remaining nodes. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/delete_linked_list_node.cpp -o build/delete_linked_list_node
+./build/delete_linked_list_node
+```
+Enter a count, that many integer values, and the target value. A missing target leaves the list unchanged.
