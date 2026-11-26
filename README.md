@@ -2120,3 +2120,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/delete_linked_list_node.c
 ./build/delete_linked_list_node
 ```
 Enter a count, that many integer values, and the target value. A missing target leaves the list unchanged.
+
+### Search for a node
+[search_linked_list_node.cpp](27-linked-lists/search_linked_list_node.cpp) traverses a singly linked list and reports the 1-based position of the first matching integer. Allocated nodes are freed before exit.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 27-linked-lists/search_linked_list_node.cpp -o build/search_linked_list_node
+./build/search_linked_list_node
+```
+Enter a count, that many integer values, and the target value. The program reports when no node matches.
