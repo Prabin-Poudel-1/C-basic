@@ -2216,3 +2216,13 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/postorder_traversal.cpp -o build
 ./build/postorder_traversal
 ```
 Enter a count from 0 to 100 and that many node values in level order.
+
+## Graphs
+
+### Graph representation
+[graph_representation.cpp](30-graphs/graph_representation.cpp) represents an undirected graph as numbered vertices and a list of endpoint pairs (an edge list).
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 30-graphs/graph_representation.cpp -o build/graph_representation
+./build/graph_representation
+```
+Enter a vertex count from 0 to 100, an edge count from 0 to 10000, then one pair of vertex numbers per edge. Vertices are numbered from 0; a graph with no vertices must have no edges.
