@@ -2200,3 +2200,11 @@ g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/inorder_traversal.cpp -o build/i
 ./build/inorder_traversal
 ```
 Enter a count from 0 to 100 and that many node values in level order.
+
+### Pre-order traversal
+[preorder_traversal.cpp](29-trees/preorder_traversal.cpp) recursively visits the current node, then its left child and right child in a complete binary tree stored in level-order vector form.
+```sh
+g++ -std=c++17 -Wall -Wextra -pedantic 29-trees/preorder_traversal.cpp -o build/preorder_traversal
+./build/preorder_traversal
+```
+Enter a count from 0 to 100 and that many node values in level order.
